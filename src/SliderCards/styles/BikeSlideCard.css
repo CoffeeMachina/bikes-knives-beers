@@ -1,0 +1,69 @@
+.card-dimensions{
+    /*width:900px;*/
+    /*height: 1200px;*/
+
+    border-radius: 1rem;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 35%);
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.card-picture {
+    position: relative;
+    overflow: hidden;
+    /*center the image within div*/
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-picture img {
+    vertical-align: middle;
+    transition: 300ms;
+}
+
+.card-picture img {
+    height: 750px;
+    /*width: 800px;*/
+    vertical-align: middle;
+    transition: 300ms;
+}
+
+.image-centering {
+    position: relative;
+}
+.image-attributes {
+    border-radius: 5%;
+}
+.card-dimensions:hover .card-picture img {
+    transform: scale(1.12);
+    transition: 590ms;
+}
+
+
+.time-tag {
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    background: rgba(220, 8, 95, 0.45);
+    padding: 16px 28px;
+    color: #00ff0d;
+    border-radius: 30px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 25%);
+    z-index: 1;
+}
+.price-tag{
+    position: absolute;
+    top: 18px;
+    right: 12px;
+    background: rgba(220, 8, 95, 0.45);
+    padding: 16px 28px;
+    color: #00ff0d;
+    border-radius: 30px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 25%);
+    z-index: 1;
+}

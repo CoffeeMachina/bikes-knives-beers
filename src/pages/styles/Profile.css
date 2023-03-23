@@ -1,0 +1,66 @@
+.profile-text {
+    color: slateblue;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.form-center {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-profile-input {
+    width: 750px;
+
+}
+/*stable profile-name size*/
+.profile-name {
+
+    padding: 2rem 3rem 1rem 3rem;
+    word-break: break-word;
+    font-family: 'Tangerine', serif;
+    font-size: 2.65rem;
+    font-weight: 800;
+    /*text-shadow: 4px 4px 4px #aaa;*/
+    background-image: linear-gradient(89.4deg, rgba(194, 0, 39, 1) 0.8%, rgba(10, 35, 104, 1) 99.4%);
+
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.form-control:focus {
+    border-color: #a91cec;
+    border-width: 5px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+    background-color: rgba(33, 224, 120, 0.77)!important;
+}
+
+.custom-form-input{
+    width: 600px;
+    max-width: 750px;
+}
+.edit-name-sign-out-font{
+    font-size: 1.43rem;
+}
+
+.profile-buttons{
+    /*width: 250px;*/
+    /*height: 125px;*/
+    background-color: rgba(238, 51, 135, 0.85) !important;
+}
+.profile-buttons:hover {
+    /*background-color: rgba(238, 51, 135, 0.61) !important;*/
+    background-color: #9f18ee !important;
+
+    transition: 250ms ease-in-out;
+
+}
+
+.my-buttons{
+    white-space: normal;
+    word-wrap: break-word;
+}

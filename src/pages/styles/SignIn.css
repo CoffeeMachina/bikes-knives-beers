@@ -1,0 +1,41 @@
+body{
+    min-height: 125vh;
+}
+
+
+.girl-photo {
+    /*max-width: 87%;*/
+    max-width: 600px;
+    border-radius: 7%;
+}
+
+.form-div {
+    padding-top: 2.5rem;
+    align-self: center;
+    max-width: 77%;
+    /*margin-right: 3rem;*/
+    margin: 3rem 50px 15px 50px;
+}
+
+.google-button:hover {
+    background-color:#002ead;
+    transition: 0.75s;
+}
+
+.header-font{
+    font-family: 'Tangerine', serif;
+    font-size: 2.65rem;
+    font-weight: 800;
+    /*text-shadow: 4px 4px 4px #aaa;*/
+    background-image: linear-gradient( 89.4deg,  rgba(194,0,39,1) 0.8%, rgba(10,35,104,1) 99.4% );
+
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.navbar-fonts{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 38px;
+    font-weight: 650;
+}

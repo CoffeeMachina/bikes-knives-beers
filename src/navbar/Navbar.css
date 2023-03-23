@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 24px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+section {
+    background-color: #e13232;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-child(odd) {
+    background: #d22121;
+}
+
+section:before {
+    content: attr(data-text);
+    color: #f31919;
+    font-size: 8em;
+    /*text-transform: bold;*/
+}
+
+nav {
+    background: rgb(0, 255, 137);
+    /*background: radial-gradient(circle, rgb(213, 76, 246) 12%, rgba(65,145,151,1) 48%, rgba(151,1,170,1) 80%, rgba(230,112,199,1) 100%);    color: #fff;*/
+    background: radial-gradient(circle,
+    rgba(213, 76, 246, 0.22) 12%,
+    rgba(65, 145, 151, 0.91) 48%,
+    rgba(151, 1, 170, 0.92) 80%,
+    rgba(230, 112, 199, 0.91) 100%);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.78);
+    justify-content: space-around;
+}
+
+nav ul li {
+    position: relative;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.85s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li:hover {
+    color: #523ede;
+    /*-webkit-filter: invert(8%);*/
+    /*filter: invert(22%);*/
+    /*-webkit-filter: invert(55%);*/
+    /*filter: invert(15%);*/
+}
+
+nav ul li:before,
+nav ul li:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(52, 255, 0, 0.22);
+    z-index: -1;
+    transform: scaleY(0);
+    /*transform-origin: bottom;*/
+    transform-origin: center;
+    transition: transform .88s;
+
+}
+
+nav ul li:after {
+    z-index: -2;
+    filter: blur(20px);
+}
+
+nav ul li:hover:before,
+nav ul li:hover:after {
+    transform: scaleY(1);
+}
+
+
+#container {
+    margin-top: 30px;
+}
+
+::selection {
+    background-color: rgba(10,222,188,0.5);
+}
+
+::-webkit-scrollbar {
+    /*width: 20px;*/
+    width: 1.67rem;
+}
+
+::-webkit-scrollbar-track {
+    /*background:  linear-gradient(#ef7676, #9400D3);*/
+    background: radial-gradient(circle, rgb(213, 76, 246) 12%, rgba(65, 145, 151, 1) 48%, rgba(151, 1, 170, 1) 80%, rgba(230, 112, 199, 1) 100%);
+    /*color: #fff;*/
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    box-shadow: 0px 0px 0px 100000vh black;
+}
+
+.texts .text {
+    background: rgb(182,255,179);
+    background: radial-gradient(circle, rgba(182,255,179,1) 17%, rgba(45,255,126,1) 44%, rgba(252,70,70,1) 79%);    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}

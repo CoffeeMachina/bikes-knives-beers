@@ -1,0 +1,7 @@
+.spinners .spinner {
+    background: #00ff0d;
+    background: radial-gradient(circle at 30% 222%, #86ffdc 0%, #018dff 25%, #7af688 45%, #a561ff 60%, #285AEB 90%, #285AEB 90%, #e1ac45 133%,
+    #c53232 255%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

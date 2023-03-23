@@ -1,0 +1,6 @@
+.div-swiper-shadow{
+    box-shadow: 11px 14px 24px 0px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 11px 14px 24px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 14px 24px 0px rgba(0,0,0,0.69);
+    z-index: 100;
+}

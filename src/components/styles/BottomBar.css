@@ -1,0 +1,11 @@
+.bottom-bar{
+    height: 5rem;
+    color: #0a5d5d;
+    /*background: #0a5d5d;*/
+
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgba(75, 192, 200, 0.15), #C779D0, rgba(254, 172, 94, 0.15)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}

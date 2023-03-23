@@ -1,0 +1,51 @@
+
+.swiper-slide-style {
+    /*width: 100%;*/
+    /*height: 50vh;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+}
+
+.adjust-content{
+    display: flex;
+    justify-content: space-evenly;
+    /*position: absolute;*/
+    /*max-height: 1500px;*/
+    /*object-fit: cover;*/
+    /*position: absolute;*/
+    /*overflow: hidden;*/
+    /*background: center no-repeat;*/
+    /*background-size: contain;*/
+    /*transform: scale(.67);*/
+
+}
+
+.button-tag{
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    background: rgba(220, 8, 95, 0.45);
+    padding: 16px 28px;
+    color: #00ff0d;
+    border-radius: 30px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 25%);
+    z-index: 1;
+}
+
+/*FOR SALE TAG*/
+.price-tag{
+    position: absolute;
+    top: 18px;
+    right: 12px;
+    background: rgba(220, 8, 95, 0.45);
+    padding: 16px 28px;
+    color: #00ff0d;
+    border-radius: 30px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 25%);
+    z-index: 1;
+}
+
